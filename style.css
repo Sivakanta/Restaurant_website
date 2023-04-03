@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+.navbar{
+    background-color:blueviolet;
+}
+
+body{
+   font-family:sans-serif;
+}
+.hero-img{
+    background-image: url('https://img.freepik.com/free-photo/vintage-old-rustic-cutlery-dark_1220-4886.jpg?w=740&t=st=1673880684~exp=1673881284~hmac=90fda2f4abcf7d02ad502c1297f552783e8b2c5ec882dbcd491e46c751c80a31');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.hero-card{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 2%;
+    border: 1px solid  white;
+}
+.menu-img{
+    width: 100%;
+    border-radius: 10%;
+    height: 50%;
+}
+footer{
+    background:black;
+}
+.footer-text{
+    margin-bottom:0;
+    color: rgb(161, 157, 157);
+    font-weight: bold;
+}
+.nav-link{
+    color:white;
+    font-weight: 500;
+}
+
+.btn-primary{
+    border-radius: 15px;
+}
